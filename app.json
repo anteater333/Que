@@ -15,16 +15,6 @@
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "bundleIdentifier": "com.que.que-ios-client",
-      "config": {
-        "googleSignIn": {
-          "reservedClientId": "com.googleusercontent.apps.944223797321-btlbg3kqav2uicn03cpc0qvea1f0fq6j"
-        }
-      },
-      "googleServicesFile": "./firebase/GoogleService-Info.plist",
-      "supportsTablet": true
-    },
     "android": {
       "package": "com.que.queandroidclient",
       "googleServicesFile": "./firebase/google-services.json",
