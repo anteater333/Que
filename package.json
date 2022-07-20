@@ -2,7 +2,7 @@
   "name": "que",
   "version": "0.1.0",
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "https://anteater333.github.io/Que-web",
+  "homepage": "https://que-web.vercel.app/",
   "scripts": {
     "start": "expo start --tunnel",
     "android": "expo start --android",
@@ -10,7 +10,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "test": "jest --watch",
-    "deploy": "gh-pages -d web-build",
+    "deploy": "cd web-build && vercel --prod",
     "predeploy": "expo build:web"
   },
   "dependencies": {
