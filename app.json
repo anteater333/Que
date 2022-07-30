@@ -16,6 +16,7 @@
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
+      "versionCode": 2,
       "package": "com.que.queandroidclient",
       "googleServicesFile": "./firebase/google-services.json",
       "adaptiveIcon": {
