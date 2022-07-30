@@ -25,8 +25,8 @@ interface Configuration {
 const prodEnv: Configuration = {
   VERIFICATION_SERVER: {
     PROTOCOL: "http",
-    HOST: "118.67.131.12",
-    PORT: 18080,
+    HOST: "34.82.254.40",
+    PORT: 80,
     PREFIX: "/api/v1",
   },
   FIREBASE: {
